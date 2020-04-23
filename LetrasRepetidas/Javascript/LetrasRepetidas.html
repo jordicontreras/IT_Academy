@@ -1,0 +1,102 @@
+<script>
+
+    //*********** FASE 1 ***********
+
+    //Creamos el array de nombre e introducimos los datos
+    var nombre = new Array();
+    nombre[0] = 'j';
+    nombre[1] = 'o';
+    nombre[2] = '1';
+    nombre[3] = 'd';
+    nombre[4] = 'i';
+
+    //Mostramos por pantalla los valores del array nombre
+    for(var i = 0; i < nombre.length; i++){
+        console.log(nombre[i]);
+    }
+
+
+
+    //*********** FASE 2 ***********
+    
+    //Recorremos el array nombre con un foreach llamando a la función que comprueba si los valores son vocales o consonantes
+    nombre.forEach(esVocal)
+
+    //Función que comprueba si el valor pasado es vocal o consonante
+    function esVocal(letra, index){
+        if(letra == 'a'  || letra == 'e'  || letra == 'i' || letra == 'o' || letra == 'u')
+        {
+            console.log("la letra " + letra + " es vocal");
+        }
+        else
+        {
+            
+            //Intentamos convertir el valor del array a int
+            esNumero = parseInt(letra);
+            
+            //Si el resultado de la conversión es NaN significa que no es un número y es consonante, en caso contrario es número
+            if (isNaN(esNumero))
+            {
+                console.log(letra + " es una CONSONANTE"); 
+            }
+            else
+            {
+                console.log(letra + " es una número y por tanto no válido");
+            }
+        }  
+    }
+
+
+
+    //*********** FASE 3 ***********
+
+    //Creamos el diccionario
+    var diccionario = new Map();
+
+    //Recorremos el array nombre y comprobamos si existen valores repetidos y vamos añadiendo los datos al diccionario
+    for(var i=0; i<nombre.length; i++)
+    {
+        var cont = 1;
+        for (var j=i+1; j<nombre.length; j++)
+        {                
+            if (nombre[i] == nombre[j])
+            {
+                cont++;
+            }
+        }
+            if (!diccionario.has(nombre[i]))
+            {
+                diccionario.set(nombre[i], cont);
+            }
+               
+    }
+
+
+    
+    //*********** FASE 3 ***********
+
+    //Creamos el array de apellido e introducimos los datos
+    var apellido = new Array();
+    apellido[0] = 'c';
+    apellido[1] = 'o';
+    apellido[2] = 'n';
+    apellido[3] = 't';
+    apellido[4] = 'r';
+    apellido[5] = 'e';
+    apellido[6] = 'r';
+    apellido[7] = 'a';
+    apellido[8] = 's';
+
+    //Creamos el array con el espacio en blanco
+    var espacio = new Array();
+    espacio[0] = ' ';
+
+    //Creamos el array de nombreCompleto
+    var nombreCompleto = new Array();
+    //Introducimos en el array de nombreCompleto el array del nombre y el espacio en blanco
+    nombreCompleto = nombre.concat(espacio);
+    //Añadimos al array de nombre completo el apellido
+    nombreCompleto  = nombreCompleto.concat(apellido);
+    console.log(nombreCompleto);
+    
+</script>

@@ -1,0 +1,13 @@
+C:\Users\jordi\source\repos\LetrasRepetidas\LetrasRepetidas\bin\Debug\netcoreapp3.1\LetrasRepetidas.exe
+C:\Users\jordi\source\repos\LetrasRepetidas\LetrasRepetidas\bin\Debug\netcoreapp3.1\LetrasRepetidas.deps.json
+C:\Users\jordi\source\repos\LetrasRepetidas\LetrasRepetidas\bin\Debug\netcoreapp3.1\LetrasRepetidas.runtimeconfig.json
+C:\Users\jordi\source\repos\LetrasRepetidas\LetrasRepetidas\bin\Debug\netcoreapp3.1\LetrasRepetidas.runtimeconfig.dev.json
+C:\Users\jordi\source\repos\LetrasRepetidas\LetrasRepetidas\bin\Debug\netcoreapp3.1\LetrasRepetidas.dll
+C:\Users\jordi\source\repos\LetrasRepetidas\LetrasRepetidas\bin\Debug\netcoreapp3.1\LetrasRepetidas.pdb
+C:\Users\jordi\source\repos\LetrasRepetidas\LetrasRepetidas\obj\Debug\netcoreapp3.1\LetrasRepetidas.csprojAssemblyReference.cache
+C:\Users\jordi\source\repos\LetrasRepetidas\LetrasRepetidas\obj\Debug\netcoreapp3.1\LetrasRepetidas.AssemblyInfoInputs.cache
+C:\Users\jordi\source\repos\LetrasRepetidas\LetrasRepetidas\obj\Debug\netcoreapp3.1\LetrasRepetidas.AssemblyInfo.cs
+C:\Users\jordi\source\repos\LetrasRepetidas\LetrasRepetidas\obj\Debug\netcoreapp3.1\LetrasRepetidas.dll
+C:\Users\jordi\source\repos\LetrasRepetidas\LetrasRepetidas\obj\Debug\netcoreapp3.1\LetrasRepetidas.pdb
+C:\Users\jordi\source\repos\LetrasRepetidas\LetrasRepetidas\obj\Debug\netcoreapp3.1\LetrasRepetidas.genruntimeconfig.cache
+C:\Users\jordi\source\repos\LetrasRepetidas\LetrasRepetidas\obj\Debug\netcoreapp3.1\LetrasRepetidas.csproj.CoreCompileInputs.cache
